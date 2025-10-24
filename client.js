@@ -4,5 +4,4 @@ ws.on('open', function() {
 	ws.send('something');
 });
 ws.on('message', function(message) {
-	console.log('received: %s', message);
 });
